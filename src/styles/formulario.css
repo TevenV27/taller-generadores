@@ -1,0 +1,32 @@
+input{
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    background: rgb(241, 241, 241);
+    padding-left: 10px;
+}
+button{
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+    .input-box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 200px;
+    }
+    .bot-generar{
+        background: rgb(0, 80, 252);
+        color: whitesmoke;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
