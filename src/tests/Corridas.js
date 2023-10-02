@@ -66,8 +66,8 @@ export function pruebaCorridas (ListNum){
     const z = (numCorridas - (((2*N)-1)/3)) / Math.sqrt(((16*N)-29)/90);
     let  respuesta = ""
     if ((z>-1.96) && (z<1.96))
-    { respuesta = "Es Independiente" } 
-    else{ respuesta =  "No es Independiente" }
+    { respuesta = "INDEPENDIENTE" } 
+    else{ respuesta =  "NO INDEPENDIENTE" }
 
     return {listaCorridas,numCorridas,respuesta,z}
 }

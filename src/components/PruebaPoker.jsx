@@ -1,8 +1,8 @@
 export function PruebaPoker({ poker }) {
     return (
-      <div style={{background: '#EEEEEE', padding: '5px 5px'}}>
+      <div style={{background: '#EEEEEE', padding: '5px 15px'}}>
         
-        <h5>Prueba de Poker: <span style={{ fontSize: 15, color: poker.respuesta === "Es Independiente" ? "green" : "red" }}>{poker.respuesta}</span></h5>
+        <h5>Prueba de Poker: <span style={{ fontSize: 15, color: poker.respuesta === "INDEPENDIENTE" ? "green" : "red" }}>{poker.respuesta}</span></h5>
         <table className="table">
           <thead>
             <tr>

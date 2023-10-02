@@ -1,8 +1,8 @@
 export function PruebaX2({ x2 }) {
     return (
-      <div style={{background: '#EEEEEE', padding: '5px 5px'}}>
+      <div style={{background: '#EEEEEE', padding: '5px 15px'}}>
         
-        <h5>Prueba de X2: <span style={{ fontSize: 15, color: x2.respuesta === "Pasa la prueba" ? "green" : "red" }}>{x2.respuesta}</span></h5>
+        <h5>Prueba de X2: <span style={{ fontSize: 15, color: x2.respuesta === "ACEPTADA" ? "green" : "red" }}>{x2.respuesta}</span></h5>
         <table className="table">
           <thead>
             <tr>

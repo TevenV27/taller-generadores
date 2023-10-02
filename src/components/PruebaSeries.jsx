@@ -1,8 +1,8 @@
 export function PruebaSeries({ series }) {
     return (
-      <div style={{background: '#EEEEEE', padding: '5px 5px'}}>
+      <div style={{background: '#EEEEEE', padding: '5px 15px'}}>
         
-        <h5>Prueba de Series: <span style={{ fontSize: 15, color: series.respuesta === "Es Independiente" ? "green" : "red" }}>{series.respuesta}</span></h5>
+        <h5>Prueba de Series: <span style={{ fontSize: 15, color: series.respuesta === "INDEPENDIENTE" ? "green" : "red" }}>{series.respuesta}</span></h5>
         <p>Matriz Frecuencia Obtenida:</p>
         <table className="table">
           <thead>
@@ -49,7 +49,7 @@ export function PruebaSeries({ series }) {
             ))}
           </tbody>
         </table>
-        <p>X2 calculado: {series.X2}</p>
+        <p><strong>Cálculo de X2:</strong> {series.X2}</p>
       </div>
     )
   }

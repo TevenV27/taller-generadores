@@ -50,9 +50,9 @@ function funcionXcal(listFo, fe) {
     const Xcal = funcionXcal(listFo, Fe).SumXcalc;
     const listaCalc = funcionXcal(listFo, Fe).listXcalc;
     
-    let respuesta = "Pasa la prueba"
+    let respuesta = "ACEPTADA"
     if (Xcal > Xcrit) {
-      respuesta = "No pasa la prueba"
+      respuesta = "RECHAZADA"
     }
   
     return {rangos,listFo,listFe,listaCalc,Xcal,respuesta}

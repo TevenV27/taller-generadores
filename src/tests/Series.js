@@ -41,9 +41,9 @@ export function pruebaSeries (listaRn , X2crit){
         }
     }
 
-    let respuesta = "Es Independiente"
+    let respuesta = "INDEPENDIENTE"
     if (X2 > X2crit) {
-        respuesta = "No es independiente"}
+        respuesta = "NO INDEPENDIENTE"}
 
     return{MatrixFO,FE,MatrixFEFO,X2,respuesta}
 }

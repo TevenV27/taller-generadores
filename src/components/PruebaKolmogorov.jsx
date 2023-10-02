@@ -1,8 +1,8 @@
 export function PruebaKolmogorov({ kolmogorov }) {
     return (
-      <div style={{background: '#EEEEEE', padding: '5px 5px'}}>
+      <div style={{background: '#EEEEEE', padding: '5px 15px'}}>
         
-        <h5>Prueba de Kolmogorov: <span style={{ fontSize: 15, color: kolmogorov.respuesta === "Pasa la prueba" ? "green" : "red" }}>{kolmogorov.respuesta}</span></h5>
+        <h5>Prueba de Kolmogorov: <span style={{ fontSize: 15, color: kolmogorov.respuesta === "ACEPTADA" ? "green" : "red" }}>{kolmogorov.respuesta}</span></h5>
         <table className="table">
           <thead>
             <tr>

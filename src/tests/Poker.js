@@ -84,10 +84,10 @@ export function pruebaPoker(ListaRn, decimales, Xcrit ){
     
     let respuesta
     if (x2 <= Xcrit){ 
-        respuesta = "Es Independiente"
+        respuesta = "INDEPENDIENTE"
     }
     else{
-        respuesta = "No es Independiente"
+        respuesta = "NO INDEPENDIENTE"
     }
     let tablares = tabla[decimales-3]
     return {ListaRn,Fo,Fe,FeFo,x2,respuesta,tablares}

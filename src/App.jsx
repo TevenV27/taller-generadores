@@ -70,6 +70,7 @@ function App() {
         <section className='result-box'>
           <Resultado data={formData} typeGenerator={typeGenerator} isCheckedFactorized = {isChecked} />
         </section>
+        <p className='integrantes'>Dahian Alexandra Sanchez - Jesus Alberto Gil - Kevin Steven Victoria</p>
       </main>
     </>
   )

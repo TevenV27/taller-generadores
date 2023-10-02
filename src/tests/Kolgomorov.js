@@ -65,7 +65,7 @@ export function Kolmogorov (ListRn,DM,numRangos){
     const FOA = CalcFOA(FO);
     const POA = CalcPOA(FO,ListRn.length);
     const PEA = CalcPEA(numRangos,ListRn.length);
-    let respuesta = "Pasa la prueba"
+    let respuesta = "ACEPTADA"
     var listFinal = Array();
     for (let i = 0; i<numRangos;i++){
         let aux  = 0
@@ -73,7 +73,7 @@ export function Kolmogorov (ListRn,DM,numRangos){
         aux = Math.abs(PEA[i] - POA [i])
         listFinal.push(aux);
         if (aux>DMcrit){
-            respuesta = "No pasa la prueba"
+            respuesta = "RECHAZADA"
         }
     }
 
