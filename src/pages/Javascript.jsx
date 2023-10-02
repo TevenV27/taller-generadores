@@ -49,7 +49,7 @@ export function Javascript(props) {
         }
     }, [props]);
     return (
-        <div style={{ width: '100%', height: '100%' }}>
+        <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', gap:'10px' }}>
             {listOfRandoms && (
                 <ListaRandoms listOfRandoms={listOfRandoms} periodicy={periodicy} />
             )}

@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     
     .form-card{
@@ -28,7 +28,7 @@
     }
 
     .result-box{
-      display: flex; flex-direction: column; padding: 0px 20px 0px 20px;
+      display: flex; flex-direction: column; padding: 0px;
       width: 800px;
       height: 500px;    
       background: white ;
@@ -42,4 +42,23 @@
     color: white;
     font-weight: 600;
     border: none;
+  }
+
+
+
+  @media(max-width: 768px){
+    .main-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+      font-size: 0,3rem;
+      .form-card{
+        width: 95%;
+      }
+      .result-box{
+        width: 95%;
+      }
+    }
   }

@@ -1,7 +1,7 @@
 export function PruebaSeries({ series }) {
     return (
-      <div>
-        <hr />
+      <div style={{background: '#EEEEEE', padding: '5px 5px'}}>
+        
         <h5>Prueba de Series: <span style={{ fontSize: 15, color: series.respuesta === "Es Independiente" ? "green" : "red" }}>{series.respuesta}</span></h5>
         <p>Matriz Frecuencia Obtenida:</p>
         <table className="table">
